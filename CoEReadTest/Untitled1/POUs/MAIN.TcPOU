@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="MAIN" Id="{b5d9e6a3-c16f-4431-a0e6-6d655d0029d2}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	fbEcCoeSdoRead : FB_EcCoESdoRead;
+	torque : REAL;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[fbEcCoeSdoRead(
+	sNetId:= '10.200.128.47.2.1', 
+	nSlaveAddr:= 1002, 
+	nSubIndex:=  17, 
+	nIndex:= 16#32C0, 
+	pDstBuf:= ADR(torque), 
+	cbBufLen:= SIZEOF(torque), 
+	bExecute:= , 
+	);	
+			]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>
