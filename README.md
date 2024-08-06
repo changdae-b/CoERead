@@ -1,6 +1,6 @@
 # CoERead
 
-CoERead를 위해선 FB_EcCoESdoRead 기능을 사용해야함 (링크)[https://infosys.beckhoff.com/english.php?content=../content/1033/tcplclib_tc2_ethercat/56996235.html&id=]
+CoERead를 위해선 FB_EcCoESdoRead 기능을 사용해야함 [링크](https://infosys.beckhoff.com/english.php?content=../content/1033/tcplclib_tc2_ethercat/56996235.html&id=)
 
 
 sNetID 값  
