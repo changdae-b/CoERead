@@ -1,5 +1,8 @@
 # CoERead
 
+  ![image](https://github.com/user-attachments/assets/f41204de-8e50-456f-ab08-ed579269bb5b)  
+  
+
 CoERead를 위해선 FB_EcCoESdoRead 기능을 사용해야함 [링크](https://infosys.beckhoff.com/english.php?content=../content/1033/tcplclib_tc2_ethercat/56996235.html&id=)
 
 
